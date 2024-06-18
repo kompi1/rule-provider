@@ -1,0 +1,46 @@
+proxies:
+  - name: indo
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: be39e084-05e3-48dc-8eeb-cd78ee147c9a
+    skip-cert-verify: true
+    sni: argon-2.store-premium.online
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: argon-2.store-premium.online
+    udp: true
+    
+    
+  - name: kompi
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: kompi
+    skip-cert-verify: true
+    sni: sg3.nekotun.com
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: sg3.nekotun.com
+    udp: true
+    
+  - name: kompi1
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: kompi1
+    skip-cert-verify: true
+    sni: sgc1.nekotun.com
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: sgc1.nekotun.com
+    udp: true
+    
+    
+
